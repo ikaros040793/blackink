@@ -1,251 +1,393 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#bla"  />
+    <title>cannabis (marihuana - Weed) - Black.ink - Mas de Todo</title>
+    
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/bulma.min.css">
-    <link rel="stylesheet" href="css/material-design-iconic-font.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>cannabis</title>
-    <link rel="stylesheet" href="css/video-js.css">
-	<script src="js/video.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-	
-</head>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
 
-<body>
-    <!-- Barra de navegación -->
-    <header>
-        
-        <nav class="navbar" style="display: none;">
-            <header class="nabvar-mobile is-size-5-mobile" tyle="display: none;">
-                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
-                <a class="navbar-mobile-link has-text-white" href="index.html">Avenue Fashion</a>
-                <a class="navbar-mobile-link has-text-white" href="#"><i class="zmdi zmdi-shopping-cart"></i> Vacio</a>
-            </header>
-            
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <header class="container-fluid bg-White position-sticky top-0">
+      <ul
+        class="nav nav-pills mb-3 py-3 container"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item text-primary" role="presentation">
+          <a
+            class="nav-link "
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >Weed</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >Carrito</a
+          >
+        </li>
+        <li><a href="index.html" class="nav-link">Productos</a></li>
+      </ul>
     </header>
-    <!-- Banner -->
-    <div class="banner banner-second" style="background-color: rgb(0, 0, 0)">
-        <div class="banner-container ">
-            <div class="rombo">
-                <div class="rombo2">
-                    <div class="rombo3">
 
-                    </div>
-                </div>
-            </div>
-            <a href="index.html"><h1 style="color: rgb(252, 249, 249); font-weight: bold;"> BLACK</h1><h1 style="color: red; font-weight: bold;">.INK</h1></a>
-            <h2>MAS DE TODO</h2>
-        </div>
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    Producto Añadido al carrito!
+    </div>
+    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+      Producto removido!
     </div>
 
-
-    <div class="container">
-        <div class="columns">
-            <div class="column is-two-fifths-desktop">
-                <div class="slider" id="slider">
-                    <div class="slider-img-container">
-                        <img src="img/Cannabis.jpeg" alt="camiseta" class="active slider-item">
-                    </div>
-                    <div class="slider-img-container">
-                        <img src="img/Cannabis2.jpeg" alt="camiseta" class="slider-item">
-                    </div>
-                    <div class="slider-img-container">
-                        <img src="img/Cannabis3.jpeg" alt="camiseta" class="slider-item">
-                    </div>
-                    <div class="slider-img-container">
-                        <img src="img/Cannabis4.jpeg" alt="camiseta" class="slider-item">
-                    </div>
-                    <div class="slider-button-left slider-buttons" onclick="previus()">
-                        <i class="zmdi zmdi-chevron-left zmdi-hc-3x"></i>
-                    </div>
-                    <div class="slider-button-right slider-buttons" onclick="next()">
-                        <i class="zmdi zmdi-chevron-right zmdi-hc-3x"></i>
-                    </div>
-                </div>
+    <div class="tab-content" id="pills-tabContent">
+      <div
+        class="tab-pane fade "
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+      >
+        <img src="./img/banner.jpeg" alt="" style="width: 100%;">
+      </div>
+      <div
+        class="tab-pane fade show active container"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        <h2 class="h4 m-4 text-primary">cannabis (marihuana - Weed)</h2>
+        
+        <div class="row">
+          <div class="col-sm-8" style="color: white;">
+            <center>
+            <div class="w3-container">
+              <h2>BLACK.INK MAS DE TODO</h2>
+              <p>Catalogo del Producto</p>
             </div>
-            <div class="column">
-                <h3 class="is-size-4">cannabis</h3>
-                <div class="course-rating-container">
-                    <div class="rating-stars" style="--rating: 86%">
-                    </div>
-                </div>
-                
-                <h2 class="price is-size-4" style="font-weight:bold; color: rgb(7, 7, 7);"><sup>€</sup>100 12g </h2>
-                <p class="has-text-grey"> <strong>Disponibilidad:</strong> En stock</p>
-                <p class="has-text-grey"><strong>Código del procuto: </strong>Weed🍁</p>
-                <p class="text-default" x>¿Qué es 'Weed'? ¿Qué Significa en Español? <br><br>
-                    ¿Lo escuchas en todas tus canciones favoritas? ¿Todas las personas que conoces hablan
-                     de la weed y tú confundidx sin saber qué significa? No te preocupes, aquí te contamos.
-                     <br><br>¿Qué es ‘Weed’?<br><br>
-                    La respuesta más corta es bien fácil: weed es cannabis; weed significa marihuana, porro, 
-                    mota, hierba, chala, grifa, maconha, o como te guste llamar a esta santa planta.
-                    Pero… ¿Qué significa ‘cannabis’ o ‘marihuana’?<br><br>
-                    Según la clasificación y definición científica del cannabis, tanto el cáñamo 
-                    como la marihuana forman parte de la familia de las Cannabáceas y ambos se 
-                    clasifican además como Cannabis sativa. Como tal, ambos son cannabis.?</p>
-                
+            
+            <div class="w3-content w3-display-container">
+            
+            <div class="w3-display-container mySlides">
+              <img src="./img/marihuana.jpg" style="width:50%; max-height: 420px;">
+              <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                Precios Especiales
+              </div>
             </div>
+            
+            <div class="w3-display-container mySlides">
+              <img src="./img/Cannabis.jpeg" style="width:50%; max-height: 420px;">
+              <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                Envio seguro
+              </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+              <img src="./img/Cannabis2.jpeg" style="width:50%; max-height: 420px;">
+              <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                Seguimiento de envios
+              </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+              <img src="./img/Cannabis3.jpeg" style="width:50%; max-height: 420px;">
+              <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                Reponsabilidad y honestidad
+              </div>
+            </div>
+            
+            <div class="w3-display-container mySlides">
+              <img src="./img/Cannabis4.jpeg" style="width:50%; max-height: 420px;">
+              <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                Contacto con el cliente
+              </div>
+            </div>
+            
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+            
+            </div>
+          </center>
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
 
-        </div>
-    </div>
-    <div class="container">
 
-        <div class="columns is-tablet">
-            <div class="column">
-                <div class="tabs-container">
-                    <ul class="tabs" id="tabs">
-                        <li class="tabs-item active-tab">Descripción</li>
-                        <li class="tabs-item">Comprar</li>
-                        <li class="tabs-item">Precios</li>
-                        <li class="tabs-item">Videos</li>
-                    </ul>
-                    <div class="tabs-panels">
-                        <div class="tab-panel active-panel">
-                            <div class="container">
-                                <div class="columns">
-                                    <div class="column">
-                                        <h2 class="is-size-4">Descripción</h2>
-                                        <p>Efectos <br><br>
-                                            Se ha demostrado que los derivados de la marihuana pueden reducir dolores crónicos y agudos, no solo en enfermedades terminales sino en el dolor neuropático (el relacionado con la afectación de trayectos nerviosos) y el vinculado a procesos inflamatorios. También en controlar el dolor en artritis reumatoide, esclerosis múltiple y migraña, entre otros; reducir náuseas y vómitos en tratamientos de cáncer y VIH; estimular el apetito; contribuir en casos de asma y disminuir la presión intraocular en el glaucoma de ángulo abierto.
-                                            <br>
-                                            Pero como ocurre con sustancias similares, el cannabis puede tener efectos secundarios, tales como la somnolencia, desorientación, confusión e hipotensión, los cuales se pueden controlar mediante la reducción de las dosis. En muchos casos, estos efectos desarrollan tolerancia y desaparecen en el curso de unos días. No se han demostrado complicaciones o muertes por sobredosis.
-                                            <br>
-                                            Dicho esto, surge una pregunta común y es si usarla con fines medicinales puede ser la puerta de entrada al consumo de otras drogas de abuso. Hay que decir que la marihuana es la sustancia ilícita con mayor consumo, asociado en gran medida por la alta accesibilidad. Sin embargo, es difícil sostener que la marihuana sea la puerta de entrada a otras drogas. De hecho, es el alcohol la droga que más frecuentemente antecede al consumo de drogas más peligrosas. Adicionalmente, el riesgo disminuye en lo que respecta al cannabis para uso terapéutico, de acceso restringido y formulación bajo determinadas presentaciones y dosificaciones.
-                                            <br>
-                                            Aunque la evidencia disponible indica que en los lugares donde se ha aprobado el uso de la marihuana medicinal no ha aumentado el consumo en la población adolescente, no hay que ignorar la preocupación de que podría disminuir la percepción de riesgo de la población adolescente, por lo que se requiere delimitar de manera clara las condiciones del uso.
-                                            <br><br>
-                                            Otros mitos<br><br>
-                                            Los estudios sobre la conexión entre violencia y el consumo de marihuana y de alcohol indican que la marihuana parece disminuir la agresividad. De hecho, no existe evidencia del creciente número de hechos delictivos, como ocurre con el consumo de otras drogas, como la cocaína o el alcohol.
-                                            <br>
-                                            También se piensa que cualquiera puede consumir marihuana medicinal, pero lo cierto es que la regulación debe definir que estos derivados tienen control estricto. Y solo los médicos, a través de fórmulas específicas, como se hace actualmente con los fármacos de control, las pueden administrar.
-                                            <br><br>
-                                            Así actúa en el organismo<br><br>
-                                            ​Hay dos grupos de componentes químicos contenidos en la marihuana que actúan en el organismo de los que se desprenden sus efectos medicinales: el THC (tetrahidrocannabinol), que el investigador Raphael Mechoulam encontró en 1964 en Israel y es el principal compuesto psicoactivo de la planta, y los llamados cannabinoides, que no tienen efectos psicoactivos y son potentes antiinflamatorios y analgésicos.
-                                            <br>
-                                            En el cuerpo existen receptores específicos para estas sustancias, y en el caso de los cannabinoides se descubrió que, de la misma forma como produce estimulantes como la adrenalina o la endorfina, el cuerpo los produce cuando los necesita.
-                                            <br>
-                                            Estas sustancias son parecidas a las que están contenidas en la marihuana, que, en el caso de la planta, son llamados fitocanabinoides. Estos se unen a receptores que se llaman CB1y CB2, y por esa vía la marihuana tiene aplicación terapéutica.
-                                            <br>
-                                            Es un sistema de neurotransmisión que actúa no solo en el cerebro: también en otros órganos y tejidos del cuerpo. Este sistema regula muchos procesos importantes como la acumulación de energía, la modulación del dolor, la respuesta inflamatoria. Es un protector neuronal y psicológico.</p>
-                                    </div>
-                                </div>
+          </div>
 
-                            </div>
+          <div class="col-sm-4 " style="color: white;">
+            
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item" >
+              <h2 class="accordion-header" id="headingOne">
+                <button style="color: red;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Precio
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    
+                    <span style="color: white;">
+                      
+                      <div class="col d-flex justify-content-center mb-4">
+                        <div class="card shadow mb-1 bg-White rounded" style="width: 20rem;">
+                          <a href="Weeddsfasgsgsdgcsdhvgstsvgscgsdvcsdgsvvgsgnhbfdbdfhgdg.html">
+                          <h5 class="card-title pt-2 text-center text-primary">cannabis (marihuana - Weed)</h5>
+                          <img src="./img/marihuana.jpg" class="card-img-top none" alt="..."></a>
+                          <div class="card-body">
+                            <p class="card-text text-dark-50 description none">€ 100 12g.</p>
+                            <h5 class="text-primary none">Precio: <span class="precio">$  10</span></h5>
+                            <div class="d-grid gap-2">
+                            <button  class="btn btn-primary button">Añadir a Carrito</button>
+                          </div>
+                          </div>
                         </div>
-                        <div class="tab-panel">
+                      </div>
 
-                            <div class="container">
-                                <div class="columns">
-                                    <div class="column is-half">
+                      10 paquetes de semillas por € 200.00
+                    </span>
+                      </strong>
+                      
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button style="color: red;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Descripcion
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body" class="textjust">
+                  
 
-                                        <h2 class="is-size-4">Envios y reembolsos</h2>
-                                            <table class="default">
-                                                <tr>
-                                                <td><a href="https://t.me/joinchat/AZ4FSqpohuxjMGVh" target="blank">Telegram</a></td>
-                                                    <td>BlockChain</td>
-                                                    <td>UPHOLD</td>
-                                                </tr>
-                                                <tr>
-                                                <td><img src="img/telegram.png" alt="">
-                                                    <button>copiar codigo</button>
-                                                </td>
-                                                <td><img src="img/pago con bitcoin.png" alt="">
-                                                <p id="p1" style="display:none">bitcoin:bc1q285zmyculpjrpx3emyynazzzm0guy53tnj4aqm</p>
-                                                    <button onclick="copiarAlPortapapeles('p1')">Copiar Codigo</button>
-                                                </td>
-                                                <td><img src="img/bitcoin2.jpg" alt="">
-                                                    <p id="p2" style="display:none">bitcoin:18hv8gsfx1VDS2VFTSnhT2D2bQAev6eTLo</p>
-                                                    <button onclick="copiarAlPortapapeles('p2')">Copiar Codigo</button>
-                                                </td>
-                                                </td>
-                                                </tr>
-                                            </table>
-                                                <style>
-                                                    img{
-                                                        height: 150px;
-                                                    }
-                                                    textarea{
-                                                        height: 70px;
-                                                    }
-                                                    button{
-                                                        width: 200px;
-                                                    }
-                                                </style>
+                Efectos
+                  <br><br>
+                Se ha demostrado que los derivados de la marihuana pueden reducir dolores crónicos y agudos, no solo en enfermedades terminales sino en el dolor neuropático (el relacionado con la afectación de trayectos nerviosos) y el vinculado a procesos inflamatorios. También en controlar el dolor en artritis reumatoide, esclerosis múltiple y migraña, entre otros; reducir náuseas y vómitos en tratamientos de cáncer y VIH; estimular el apetito; contribuir en casos de asma y disminuir la presión intraocular en el glaucoma de ángulo abierto. Pero como ocurre con sustancias similares, el cannabis puede tener efectos secundarios, tales como la somnolencia, desorientación, confusión e hipotensión, los cuales se pueden controlar mediante la reducción de las dosis. En muchos casos, estos efectos desarrollan tolerancia y desaparecen en el curso de unos días. No se han demostrado complicaciones o muertes por sobredosis. Dicho esto, surge una pregunta común y es si usarla con fines medicinales puede ser la puerta de entrada al consumo de otras drogas de abuso. Hay que decir que la marihuana es la sustancia ilícita con mayor consumo, asociado en gran medida por la alta accesibilidad. Sin embargo, es difícil sostener que la marihuana sea la puerta de entrada a otras drogas. De hecho, es el alcohol la droga que más frecuentemente antecede al consumo de drogas más peligrosas. Adicionalmente, el riesgo disminuye en lo que respecta al cannabis para uso terapéutico, de acceso restringido y formulación bajo determinadas presentaciones y dosificaciones. Aunque la evidencia disponible indica que en los lugares donde se ha aprobado el uso de la marihuana medicinal no ha aumentado el consumo en la población adolescente, no hay que ignorar la preocupación de que podría disminuir la percepción de riesgo de la población adolescente, por lo que se requiere delimitar de manera clara las condiciones del uso.
 
-                                        <script>
-                                            //copiar al dar click
-                                            function copiarAlPortapapeles(id_elemento) {
-                                              var aux = document.createElement("input");
-                                              aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
-                                              document.body.appendChild(aux);
-                                              aux.select();
-                                              document.execCommand("copy");
-                                              document.body.removeChild(aux);
-                                              alert("COPY CODE!");
-                                            }
-                                        </script>
-                                        
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="tab-panel">
-                            <h2 class="is-size-4">Variedad del Poducto</h2>
-                            <p> Gkush <br>
-                                Bluedream<br>
-                                Whitewidow<br>
-                                Sour diesel<br>
-                                Purple haze<br>
-                                Lemon diesel<br>
-                                Jack Herrer<br>
-                                Afghankush<br>
-                                Masterkush<br>
-                                Train wreck <br>
-                                Gorilla glue<br>
-                                Blueberrykush<br>
-                                Girlscoutcookies<br>
-                                AK 47.</p>
-                        </div>
-                        <div class="tab-panel">
-                            <div class="container">
-                                <div class="columns">
-                                    <div class="column is-half">
-                                        <center><h3 style=" font-size: 24px; font-weight: bold; color: black;">Purple</h3></center>
-                                        <main>
-                                            <div class="contenedor">
-                                                <video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
-                                                    <source src="videos/meidos.mp4" type="video/mp4">
-                                                </video>
-                                            </div>
-                                        </main><br>
-                                        <center><h3 style=" font-size: 24px; font-weight: bold; color: black;">meidos</h3></center>
-                                        <main>
-                                            <div class="contenedor">
-                                                <video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
-                                                    <source src="videos/purple.mp4" type="video/mp4">
-                                                </video>
-                                            </div>
-                                        </main>
-                                        <script>
-                                            var reproductor = videojs('fm-video', {
-                                                fluid: true
-                                            });
-                                        </script>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button style="color: red;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Metodos de Pagos
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <center>
+                        <h3>Telegram</h3>
+                        <a href="https://t.me/joinchat/AZ4FSqpohuxjMGVh" target="black">
+                          <img src="img/pagos/telegram.png" style="width: 100%;"><br>
+                          <img src="img/pagos/telegramqr.png" style="width: 100%;"><br></a>
+                          <p id="p1" style="display:none">https://t.me/joinchat/AZ4FSqpohuxjMGVh</p>
+                          <button onclick="copiarAlPortapapeles('p1')" class="btn btn-outline-success">Copiar Codigo</button>
+                        </center>
                         
+                      </div>
+                      <div class="col">
+                        <center>
+                        <h3>BITCOIN</h3>
+                          <img src="img/pagos/bitcoinlogo.jpg" style="width: 100%;"><br>
+                          <img src="img/pagos/bitcoin.jpg" style="width: 100%;"><br>
+                          <p id="p2" style="display:none">bc1q676djgsqq09syw6d443y3eqz06zxq3xt9e8zx6</p>
+                          <button onclick="copiarAlPortapapeles('p2')" class="btn btn-outline-success">Copiar Codigo</button>
+                        </center>
+                      </div>
                     </div>
+                    <div class="row">
+                      <div class="col">
+                        <center>
+                          <h3>ETHEREUM</h3>
+                          <img src="img/pagos/ETHEREUMLOGO.jpg" style="width: 100%;"><br>
+                          <img src="img/pagos/ETHEREUM.jpg" style="width: 100%;"><br>
+                          <p id="p3" style="display:none">0xdd9e37C16a87a730F34BE2928143B38f22eD9545</p>
+                          <button onclick="copiarAlPortapapeles('p3')" class="btn btn-outline-success">Copiar Codigo</button>
+                        </center>
+                      </div>
+                      <div class="col">
+                        <center>
+                          <h3>BNB</h3>
+                          <img src="img/pagos/BNBLOGO.jpg" style="width: 100%;"><br>
+                          <img src="img/pagos/BNB.jpg" style="width: 100%;"><br>
+                          <p id="p4" style="display:none">bnb1c8rndavn003kcwxhaazmuau5d3tftsd0a0fwwr</p>
+                          <button onclick="copiarAlPortapapeles('p4')" class="btn btn-outline-success">Copiar Codigo</button>
+                        </center>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                       <center>
+                          <h3>VET</h3>
+                          <img src="img/pagos/receive.jpg" style="width: 100%;"><br>
+                          <img src="img/pagos/VET.jpg" style="width: 100%;"><br>
+                          <p id="p5" style="display:none">0xA71BD18678caf03a7D01d68B50ADfF504a2abb18</p>
+                          <button onclick="copiarAlPortapapeles('p5')" class="btn btn-outline-success">Copiar Codigo</button>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <script>
+                    //copiar al dar click
+                    function copiarAlPortapapeles(id_elemento) {
+                      var aux = document.createElement("input");
+                      aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+                      document.body.appendChild(aux);
+                      aux.select();
+                      document.execCommand("copy");
+                      document.body.removeChild(aux);
+                      alert("COPY CODE!");
+                    }
+                  </script>
+
+
                 </div>
+              </div>
             </div>
+
+          </div>
+
+
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button style="color: red;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Videos
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body" class="textjust" style="color: red;">
+                  
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" class="textjust">
+                      <video src="videos/purple.mp4" width="640" height="480" preload="none" controls style="width: 100%;"></video><hr>
+                      <video src="videos/meidos.mp4" width="640" height="480" preload="none" controls style="width: 100%;"></video>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          
+          </div>
         </div>
+
+        
+
+      </div>
+      <div
+        class="tab-pane fade carrito"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+      >
+      <br>
+      <table class="table table-White table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        
+          
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-white">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <button class="btn btn-success">COMPRAR</button>
+          <button><a href="" onclick="window.print('')">Ver pedido</a></button>
+        </div>
+        <div>
+          <h5 style="color: white;">Numero del vendedor</h5>
+          <input type="text">
+        </div>
+      </div>
+      
+      </div>
     </div>
-    <script src="js/main.js"></script>
-</body>
+
+    <footer class="bg-White p-3 mt-5">
+      <p class="text-center m-0 text-muted">BLAK.INK</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+  </body>
 </html>
